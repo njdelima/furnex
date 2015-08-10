@@ -1,0 +1,35 @@
+html, body {
+	margin:0;
+	padding:0;
+}
+
+.window {
+	width: 100%;
+//	height: 100%;
+//	position: absolute;
+}
+
+.window:nth-child(1) {
+	background-attachment: scroll;
+	background-image: url('../assets/images/option2.jpg');
+	background-position: center center;
+	background-size: cover;
+//	top: 0;
+}
+.window:nth-child(2) {
+	background: #322f20;
+//	top: 1080px;
+}
+.window:nth-child(3) {
+	background: #2f3061;
+//	top: 2160px;
+}
+.window:nth-child(4) {
+//	background: #fae8eb;
+	background-attachment: scroll;
+	background-image: url('../assets/images/background1.jpg');
+	background-position: center center;
+	background-size: cover;
+//	top: 300%;
+//	height: 10%;
+}
