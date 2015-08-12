@@ -11,13 +11,21 @@ html, body {
 
 .window:nth-child(1) {
 	background-attachment: scroll;
-	background-image: url('../assets/images/option2.jpg');
+	background-image: url('../assets/images/background.jpg');
 	background-position: center center;
 	background-size: cover;
 //	top: 0;
 }
 .window:nth-child(2) {
-	background: #322f20;
+//	background-attachment: scroll;
+//	background-image: url('../assets/images/toronto.jpg');
+//	background-position: center center;
+//	background-size: cover;
+
+//	background: #322f20;
+//	background: #6295B4;
+	background: #3D2028;
+//	background: #5A352A;
 //	top: 1080px;
 }
 .window:nth-child(3) {
@@ -26,10 +34,11 @@ html, body {
 }
 .window:nth-child(4) {
 //	background: #fae8eb;
-	background-attachment: scroll;
-	background-image: url('../assets/images/background1.jpg');
-	background-position: center center;
-	background-size: cover;
+//	background-attachment: scroll;
+//	background-image: url('../assets/images/background.jpg');
+//	background-position: center center;
+//	background-size: cover;
 //	top: 300%;
 //	height: 10%;
+	background-color: black;
 }

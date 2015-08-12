@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<title>Furnex - About</title>
+
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+
+	<link href='http://fonts.googleapis.com/css?family=Roboto+Slab:700' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Roboto:300,700' rel='stylesheet' type='text/css'>
+	<link href="assets/images/icon-new.png" rel="icon" type="image/png" />
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" />
+        <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+
+	<link rel="stylesheet" href="stylesheets/about.css" type="text/css" />	
+</head>
+
+<body>
+	<div class="jumbotron">
+	</div>
+	<div class="container container-main">
+		<a class="back" href="index.html"><span class="glyphicon glyphicon-circle-arrow-left"></span></a>	
+		
+		<h1>About us</h1>			
+
+		<hr />
+		<p>
+			Furnex.com aims to revolutionize the way quality used furniture is sold, discovered, and acquired today. 
+			For sellers, listing your furniture has never been simpler. For buyers, we make finding the furniture you 
+			want easy and getting it even easier.
+		</p>
+		<h1>Our Story</h1>
+		<hr />
+		<p>
+			Furnex was started by four students who because of interesting roommates, even
+			more interesting landlords, and depleting rent funds, were constantly moving
+			throughout university. Moving around Toronto frequently led us to ask "Hey there 
+			has to be a better way to buy and sell furniture online."  To us it just didn't
+			make sense to buy and sell our furniture on the same site you could find cars,
+			clothes, jobs, pets, or even friends.
+		</p>
+		<p>
+			Buying and selling furniture online presents its own unique set of problems, which
+			were simply not being addressed: What does the piece look like from this angle?
+			What are its dimensions? What colour is it?  Can it be delivered? Can I trust the
+			seller?  Can I refine my search criteria to find exactly what I am looking for? The
+			classifieds we were using just weren't cutting it so we decided to take matters into
+			our own hands. We set out to build Furnex so it would be the one stop shop for all things
+			furniture related.  We hand crafted the user interface to make sure that the experience 
+			addresses all the needs of the consumers which makes for a hassle free shopping 
+			experience.  Want your furniture delivered? Done.  Want a verified seller? Done. 
+			Want to search for that 1780 chair with that specific shade of mahogany? 
+			Interesting...but done. It's time to change the way you look for your local furniture.
+			Its time to shop on Furnex.
+		</p>
+		<h1>The Team</h1>
+		<hr />
+		<div class="row picture-row">
+			<div class="col-sm-6">
+				<img src="assets/images/about/francis.jpg" alt="Francis Ayling" />
+			</div>
+			<div class="col-sm-6">
+				<img src="assets/images/about/tanay.jpg" alt="Tanay DeLima" />
+			</div>
+			<div class="col-sm-6">
+				<img src="assets/images/about/arturo.jpg" alt="Arturo Lungo" />
+			</div>
+			<div class="col-sm-6">
+				<img src="assets/images/about/chris.jpg" alt="Chris Stewart" />
+			</div>
+		</div>
+	</div>
+        <section class="window" id="footer">
+                <div class="container">
+                        <div class="row">
+                                <div class="col-sm-6 social-media">
+                                        <a href="https://www.pinterest.com/furn_ex/following/" target="_blank"><i class="fa fa-pinterest fa-1x"></i></a>
+                                        <a href="https://instagram.com/furn_ex/" target="_blank"><i class="fa fa-instagram fa-1x"></i></a>
+                                        <a href="https://furnex.tumblr.com" target="_blank"><i class="fa fa-tumblr fa-1x"></i></a>
+                                        <a href="https://www.facebook.com/furnex.ca" target="_blank"><i class="fa fa-facebook-square fa-1x"></i></a>
+                                        <a href="https://twitter.com/furn_ex" target="_blank"><i class="fa fa-twitter fa-1x"></i></a>
+                                </div>
+                                <div class="col-sm-6 contact-email">
+                                        <a href="mailto:info@furnex.ca">info@furnex.ca</a>
+                                </div>
+                        </div>
+                </div>
+        </section>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+
+	<script>
+		$('.col-sm-6').mouseenter(function() {
+			var image = $(this).children("img");
+//			image.animate({
+//				opacity: 0.5
+//			},200);
+			var name = image.attr('alt');
+			var caption = "<p class='img-caption'>" + name + "</p>";
+			image.after(caption);
+			$('.img-caption').hide();
+			$('.img-caption').show(200);
+		}).mouseleave(function() {
+//			$(this).children("img").animate({
+//				opacity: 1
+//			}, 200);
+			$('.img-caption').remove();
+		});
+	</script>
+</body>
+</html>

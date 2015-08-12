@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<title>Furnex - About</title>
+
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+
+	<link href='http://fonts.googleapis.com/css?family=Roboto+Slab:700' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Roboto:300,700' rel='stylesheet' type='text/css'>
+	<link href="assets/images/logo/icon.png" rel="icon" type="image/png" />
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" />
+	<link rel="stylesheet" href="stylesheets/about.css" type="text/css" />	
+</head>
+
+<body>
+	<div class="container">
+		<h1>About us</h1>
+		<hr />
+		<p>
+			Furnex.com aims to revolutionize the way quality used furniture is sold, discovered, and acquired today. 
+			For sellers, listing your furniture has never been simpler. For buyers, we make finding the furniture you 
+			want easy and getting it even easier.
+		</p>
+		<h1>Our Story</h1>
+		<hr />
+		<p>
+			Furnex was started by four students who because of interesting roommates, even
+			more interesting landlords, and depleting rent funds, were constantly moving
+			throughout university. Moving around Toronto frequently led us to ask "Hey there 
+			has to be a better way to buy and sell furniture online."  To us it just didn't
+			make sense to buy and sell our furniture on the same site you could find cars,
+			clothes, jobs, pets, or even friends.
+		</p>
+		<p>
+			Buying and selling furniture online presents its own unique set of problems, which
+			were simply not being addressed: What does the piece look like from this angle?
+			What are its dimensions? What colour is it?  Can it be delivered? Can I trust the
+			seller?  Can I refine my search criteria to find exactly what I am looking for? The
+			classifieds we were using just weren't cutting it so we decided to take matters into
+			our own hands. We set out to build Furnex so it would be the one stop shop for all things
+			furniture related.  We hand crafted the user interface to make sure that the experience 
+			addresses all the needs of the consumers which makes for a hassle free shopping 
+			experience.  Want your furniture delivered? Done.  Want a verified seller? Done. 
+			Want to search for that 1780 chair with that specific shade of mahogany? 
+			Interesting...but done. It's time to change the way you look for your local furniture.
+			Its time to shop on Furnex.
+		</p>
+		<h1>The Team</h1>
+		<hr />
+		<div class="row">
+			<div class="col-sm-6 thumbnail">
+				<img class="img-responsive" src="assets/images/about/francis.jpg" alt="Francis Ayling" />
+				Francis Ayling
+			</div>
+			<div class="col-sm-6 thumbnail">
+				<img class="img-responsive" src="assets/images/about/tanay.jpg" alt="Tanay DeLima" />
+				Tanay DeLima
+			</div>
+			<div class="col-sm-6 thumbnail">
+				<img class="img-responsive" src="assets/images/about/arturo.jpg" alt="Arturo Lungo" />
+				Arturo Lungo
+			</div>
+			<div class="col-sm-6 thumbnail">
+				<img class="img-responsive" src="assets/images/about/chris.jpg" alt="Chris Stewart" />
+				Chris Stewart
+			</div>
+		</div>
+	</div>
+</body>
+</html>
